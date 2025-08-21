@@ -1,0 +1,934 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Odyssey</title>
+   <link rel="icon" href="assests/images/Favicon - 32x32px odyssey-03.png">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="">
+   <link rel="stylesheet" href="font.css">
+   <!-- ------------------CSS Style----------------- -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   <!-- ------------------Font Style----------------- -->
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet"> -->
+   <link rel="stylesheet" href="https://use.typekit.net/ttl2tyn.css">
+   <!-- ------------------Font awesome Style----------------- -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- ------------------Owl Carousel----------------- -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <!-- Header Start-->
+   <!-- <nav class="navbar container-fluid navbar-expand-lg">
+         <div class="container ">
+           <a class="navbar-brand" href="#"><img src="assests/images/nav-logo.jpg" alt="The Grey Metaphor"></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto ">
+               <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="#">SERVICES</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">ABOUT US</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">CONTACT US</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link " aria-disabled="true">CAREER</a>
+               </li>
+             </ul>
+         
+           </div>
+         </div>
+         </nav> -->
+   <!-- Desktop Navbar -->
+   <div class="custom-cursor" id="customCursor"></div>
+   <nav class="navbar desktop-navbar navbar-expand-lg  py-3" id="main-header">
+      <div class="container">
+         <a class="navbar-brand" href="index.html"><img src="assests/images/header-white-logo.png" alt="Logo"></a>
+         <div class="collapse navbar-collapse show">
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a class="nav-link fw-semibold" href="about-us.html">About Us</a></li>
+               <li class="nav-item"><a class="nav-link fw-semibold" href="#">Work / Blog</a></li>
+               <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact Us</a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- Mobile Navbar -->
+   <div class="mobile-navbar">
+      <a class="navbar-brand text-white" href="#"><img src="assests/images/Logo- 250x100px-01.png" alt="Logo"
+            height="40"></a>
+      <button id="menuToggle" class="btn  fs-2">
+         <i class="fa-solid fa-bars"></i>
+      </button>
+   </div>
+   <!-- Mobile Menu (Slide in from Right) -->
+   <div class="mobile-menu" id="mobileMenu">
+      <div>
+         <span class="close-btn" id="closeMenu"><i class="fa-solid fa-xmark"></i></span>
+         <ul class="mt-5">
+            <li><a href="about-us.html" class="text-white text-decoration-none fw-semibold">About Us</a></li>
+            <li><a href="#" class="text-white text-decoration-none fw-semibold">Work / Blog</a></li>
+            <li><a href="#" class="text-white text-decoration-none fw-semibold">Contact Us</a></li>
+         </ul>
+      </div>
+      <div class="text-white small">
+         <p class="mb-1">© 2023 Odyssey</p>
+         <div>
+            <i class="fa-brands fa-instagram me-2"></i>
+            <i class="fa-brands fa-facebook-f me-2"></i>
+            <i class="fa-brands fa-linkedin-in me-2"></i>
+            <i class="fa-brands fa-x-twitter me-2"></i>
+            <i class="bi bi-behance"></i>
+         </div>
+      </div>
+   </div>
+   <!-- Header End-->
+   <!-- Hero Start -->
+   <div class="sticky-container">
+      <section class="hero-section">
+         <div class="banner-container">
+            <!-- Banner 1 -->
+            <div class="banner-slide">
+               <div class="banner banner-one position-relative">
+                  <img src="assests/images/banners/Website Banner - 1600x800 px-01 1.png" alt="">
+                  <h1 class="banner-title-1">MADE FOR BIGGER THINGS</h1>
+               </div>
+            </div>
+            <!-- Banner 2 -->
+            <div class="banner-slide">
+               <div class="banner banner-two">
+                  <img src="assests/images/banners/banner-2.png" alt="">
+                  <div class="banner-title-2 w-50">
+                     <div>
+                        <h1><span>The</span> Story <br> <span>Is The</span> <br> Strategy</h1>
+                     </div>
+                     <div class="sub-title-banner mt-5 text-start w-50">
+                        <h3 class="fw-semibold">Who Better To Shape Stories And Craft Legacies Than Odyssey Itself?</h3>
+                        <p>Each brand is a legend in the making and we strive to make your story roar and rise from the
+                           ashes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Banner 3 -->
+            <div class="banner-slide">
+               <div class="banner banner-three">
+                  <img src="assests/images/banners/banner-3.png" alt="">
+                  <div class="banner-title-3 w-50">
+                     <h1>Growth With Imagination</h1>
+                     <div class="d-flex gap-4 text-center m-auto justify-content-center">
+                        <p class="text-end">Tailored strategies and <br> innovative solutions</p>
+                        <p class="text-start">Not just to blend <br> in, but to disrupt</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <!-- Hero End -->
+   <!-- hero banner mobile -->
+   <div class="hero-banner-mobile">
+      <section class="hero-section">
+         <div class="banner-slider swiper mySwiper-banner">
+            <div class="swiper-wrapper">
+               <div class="outer-banner swiper-slide">
+                  <div class="banner banner-one position-relative">
+                     <img src="assests/images/banners/Website Banner - 1600x800 px-01 1.png" alt="">
+                     <h1 class="banner-title-1 reflected-text">MADE FOR BIGGER THINGS</h1>
+                  </div>
+               </div>
+               <div class="banner banner-two swiper-slide">
+                  <img src="assests/images/banners/banner-2.png" alt="">
+                  <div class="banner-title-2 w-50">
+                     <div>
+                        <h1><span>The</span> Story <br> <span>Is The</span> <br> Strategy</h1>
+                     </div>
+                     <div class="sub-title-banner mt-5 text-start">
+                        <h3>Who better to shape stories
+                           and craft legacies
+                           than Odyssey itself?
+                        </h3>
+                        <p>Each brand is a legend in the making and we strive to make your story roar and rise from the
+                           ashes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="banner banner-three swiper-slide">
+                  <img src="assests/images/banners/banner-3.png" alt="">
+                  <div class="banner-title-3 w-50">
+                     <h1>Growth With Imagination</h1>
+                     <div class="d-flex gap-4 text-center m-auto justify-content-center">
+                        <p class="text-end">Tailored strategies and <br>
+                           innovative solutions
+                        </p>
+                        <p class="text-start">Not just to blend <br>
+                           in, but to disrupt
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+   </div>
+   <!-- hero banner mobile end -->
+   <!-- who we are section start -->
+   <section class="who-we-are text-white text-center py-5">
+      <div class="container">
+         <div class="who-we-are-text">
+            <div class="who-we-are-text-left">
+               <p class="lead fst-normal">Marketing must move cultures, not just products.</p>
+               <p class="lead fst-normal who-we-are-text-left-down">We don’t chase greatness. We build resonance.</p>
+            </div>
+            <h2 class="">THE <br> PILLARS <br> WE <br> STAND <br> ON</h2>
+            <div class="who-we-are-text-right">
+               <p class="lead fst-normal">No trends, only truths. We deal in absolutes.</p>
+               <p class="lead fst-normal who-we-are-text-right-down">Creativity isn’t contained; it expands, or it dies.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- who we are section End -->
+   <!-- inspired section start -->
+   <section class="inspired-section">
+      <marquee class="move-text my-5" behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();"
+         onmouseout="this.start();">
+         <span>NOT EVERY PATH IS MAPPED. SOME ARE CARVED MID-JOURNEY. NOT EVERY PATH IS MAPPED. SOME ARE CARVED
+            MID-JOURNEY.NOT EVERY PATH IS MAPPED. SOME ARE CARVED MID-JOURNEY. NOT EVERY PATH IS MAPPED. SOME ARE CARVED
+            MID-JOURNEY.
+         </span>
+      </marquee>
+      <div class="container-fluid inspired-bg mt-5">
+         <div class="container">
+            <div class="inspired-text w-50">
+               <p>Inspired by the great voyages of myth, Odyssey Collective was created to guide brands through their
+                  own
+                  transformation, not with noise, but with narrative. Not with chaos, but with clarity.
+               </p>
+               <button>Know More <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                     <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                  </svg></button>
+            </div>
+            <div class="inspired-image"> <img src="assests/images/ship-images/Ship - blue-03.png" alt=""></div>
+         </div>
+      </div>
+   </section>
+   <!-- inspired section end -->
+   <!-- Services start -->
+   <section class="services-section">
+      <div class="">
+         
+         <div class="swiper mySwiper section-with-cursor">
+            <div class="swiper-wrapper">
+               <div class="service-card-design  service-card-blue  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto ">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="hover-title custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title text-start ">Built to <br> Brand</div>
+                  <div class="hover-title">
+                     <p class="py-3 me-auto">We don’t just design logos we shape legacies.
+                        From the very first impression to the lasting recall, we help businesses craft brands that feel
+                        alive
+                        and
+                        unforgettable.
+                     </p>
+                     <div class="text-start pb-3 fs-4 ">What We Do :</div>
+                     <ul class="me-auto">
+                        <li>Define brand purpose and positioning</li>
+                        <li>Develop visual and verbal identity</li>
+                        <li>Create brand guidelines that last</li>
+                        <li>Turn stories into strategies</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-purple  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Digital but <br> Decisive</div>
+                  <div class="hover-title">
+                     <p class="py-3">Online presence is more than being seen it’s about being felt.
+                        We map out data-driven, human-first strategies that help brands cut through the digital noise
+                        and reach
+                        who truly matters.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>Performance-focused planning</li>
+                        <li> Platform-specific strategy</li>
+                        <li>Data-backed decision making</li>
+                        <li>Scalable and adaptable models</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-gold  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Content with <br> Context</div>
+                  <div class="hover-title">
+                     <p class="py-3">Every word, frame, and idea has a job to do.
+                        We create content that isn’t just pretty it’s powerful, purposeful, and on-point with your
+                        audience.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>Scripted and unscripted content</li>
+                        <li>Copywriting and storytelling</li>
+                        <li>Visual design and layout</li>
+                        <li>Brand-aligned messaging</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-blue  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg class="custom-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Campaigns that <br> Click</div>
+                  <div class="hover-title">
+                     <p class="py-3">We don’t chase virality we build meaning.
+                        Our campaigns are conversation starters. Built on insight, elevated by creativity, and designed
+                        to spark
+                        action.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>360° campaign development</li>
+                        <li>Cross-platform storytelling</li>
+                        <li>Creative ideation and execution</li>
+                        <li>Measurement and optimization</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-purple  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto ">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Lights, Lens, <br> Legacy</div>
+                  <div class="hover-title">
+                     <p class="py-3">Visuals that don’t just look good they make people look twice.
+                        From lifestyle shoots to brand films, we capture stories that are styled to sell and staged to
+                        connect.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>End-to-end production</li>
+                        <li>Photo and video shoots</li>
+                        <li>Set design and styling</li>
+                        <li>Post-production polish</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-gold  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Scroll-Stopping <br> Socials</div>
+                  <div class="hover-title">
+                     <p class="py-3">We make brands part of the feed and part of the conversation.
+                        Social isn’t just media it’s a movement. And we make sure your brand moves with it.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>Platform-wise content calendars</li>
+                        <li>Community engagement</li>
+                        <li>Trend spotting and integration</li>
+                        <li>Analytics and reporting</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-blue swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="hover-title custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Offline, But <br> On Point</div>
+                  <div class="hover-title">
+                     <p class="py-3">Not everything lives online and we don’t forget that.
+                        We build boots-on-ground campaigns that amplify your brand’s presence in the real world.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>BTL marketing and outreach</li>
+                        <li>Print and collateral design</li>
+                        <li>In-store branding and activation</li>
+                        <li>OOH campaigns</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="service-card-design service-card-purple  swiper-slide">
+                  <button class="service-btn hover-title fw-semibold me-auto">
+                     Contact Us
+                     <svg xmlns="http://www.w3.org/2000/svg" class="custom-icon" width="24" height="24">
+                        <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                     </svg>
+                  </button>
+                  <div class="card-title ">Events with a <br> Signature</div>
+                  <div class="hover-title">
+                     <p class="py-3">Every event is a statement. We make sure yours says the right thing.
+                        From brand launches to IPs that live on, we design experiences people remember and revisit.
+                     </p>
+                     <div class="text-start pb-3 fs-4">What We Do :</div>
+                     <ul>
+                        <li>Concept-to-closure IP development</li>
+                        <li>End-to-end event planning</li>
+                        <li>Partner and talent management</li>
+                        <li>On-ground execution</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+   </section>
+   <!-- Services End -->
+   <marquee class="move-text my-5" behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();"
+      onmouseout="this.start();">
+      <span style="color: 747162;">STRATEGY IS OUR COMPASS. CREATIVITY IS THE WIND. STRATEGY IS OUR COMPASS. CREATIVITY
+         IS THE WIND. STRATEGY
+         IS
+         OUR COMPASS. CREATIVITY IS THE WIND.
+      </span>
+   </marquee>
+   <section class="art-section">
+      <div class="container-fluid art-container">
+         <div class="art-content">
+            <h4>Not decoration <br>
+               Not noise.
+            </h4>
+            <p>Visuals that breathe, move, and speak with intent. Because design without direction is just static.</p>
+            <h2>Art, but <br>
+               With a Pulse
+            </h2>
+            <button>Know More <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+               </svg></button>
+         </div>
+      </div>
+   </section>
+   <!-- Portfolio start -->
+   <section class="portfolio-section">
+      <div class="container-fluid portfolio-card-section">
+         <div class="portfolio-container pt-5 container  border-light border-1">
+            <div class="portfolio-text">
+               <h2 class="pb-3">Deck of Deeds</h2>
+            </div>
+         </div>
+         <div class="container-fluid portfolio-card">
+            <div class="swiper portfolio-wrapper">
+               <div class="swiper-wrapper portfolio-wrap">
+                  <div class="card border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/DMGEL.jpg" class="card-img-top" alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center  swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/Tanishq.png" class="card-img-top" alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/GSMC Gift City.jpg" class="card-img-top"
+                        alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/Maverick Events cropped.png" class="card-img-top"
+                        alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/Paws Universe.jpg" class="card-img-top" alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/The Premiere Consultants.jpeg" class="card-img-top"
+                        alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card  border-0 text-center swiper-slide">
+                     <img src="assests/images/Portfolio Thumbnails/Toy legends.png" class="card-img-top" alt="MarCom">
+                     <div class="portfolio-hover-content text-start">
+                        <span>Paws Universe</span>
+                        <div class="d-flex">
+                           <p>Healing with heart</p>
+                           <p class="">#CaseStudy</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+   </section>
+   <!-- Portfolio End -->
+   <!-- Testimonal section start -->
+   <section class="py-5 testimonal-section">
+      <div class="container">
+         <div class=" testimonialSwiper">
+            <div class="owl-carousel owl-theme">
+               <!-- Testimonial 1 -->
+               <!-- <div class="swiper-slide">
+                     <div class="testimonial-card">
+                     
+                       <p>Your exceptional work in managing the social media presence of GSMC at GIFT IFSC deserves the highest
+                         praise! Your creativity, impactful thinking, and ability to craft engaging, impactful content have
+                         elevated the GSMC digital presence to new heights. The way you stay ahead of trends, foster meaningful
+                         connections, and create a strong, professional yet engaging narrative is truly commendable. Your
+                         dedication and innovation are not just enhancing visibility but also positioning GSMC as a prominent
+                         conclave of the GIFT IFSC. Keep up the incredible work—your efforts are making a powerful difference!"
+                       </p>
+                       <h6 class="mt-3 mb-1 fw-semibold">Mayank Jain</h6>
+                       <small class="text-muted">CFO India INX, GIFT City</small>
+                     </div>
+                     </div> -->
+               <!-- Testimonial 2 -->
+               <!-- <div class="swiper-slide">
+                     <div class="testimonial-card">
+                     
+                       <p>Working with you has been a fantastic experience! From crafting the investor presentation to
+                         fine-tuning the script, you have ensured that every detail aligned perfectly with our requirements. The
+                         final outcome was exactly what we envisioned, reflecting your keen understanding and commitment to
+                         delivering quality work. Your dedication and professionalism made the entire process seamless and
+                         efficient. Plus, your ability to meet tight deadlines without compromising on quality was truly
+                         commendable. Truly appreciate the effort.
+                       </p>
+                       <h6 class="mt-3 mb-1 fw-semibold">Ajay Rawat</h6>
+                       <small class="text-muted">Director, Dek and Mavericks Green Energy Ltd
+                       </small>
+                     </div>
+                     </div> -->
+               <!-- Testimonial 3 -->
+               <!-- <div class="swiper-slide">
+                     <div class="testimonial-card">
+                     
+                       <p>Aryan Shah from Odyssey Collective, is a young dynamic and dedicated entrepreneur, he has teamed with
+                         us on several occasions for our corporate clients, handling their digital and social media requirements
+                         and has proven his worth.
+                         His polite charming demeanor and ever-ready attitude makes him easy to work with.
+                         <br>
+                         In spite of his young age and the fact that he has just ventured out his clarity of thought and maturity
+                         in managing clients and their requirements is noteworthy and shows a lot of promise. He, along with his
+                         team, have not only handled social media and digital marketing for our clients but also helped us
+                         redesign our cards and client presentation, making him and Odyssey a complete package for all our
+                         digital needs!
+                       </p>
+                       <h6 class="mt-3 mb-1 fw-semibold">Alpa Shah</h6>
+                       <small class="text-muted">Co-Founder, Maverick Events</small>
+                     </div>
+                     </div> -->
+            </div>
+            <!-- Navigation Arrows -->
+            <!-- <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div> -->
+         </div>
+      </div>
+   </section>
+   <!-- Testimonal section End -->
+   <!-- Testimonal 2 section start -->
+   <section class="Testimonial-2-section">
+      <div class="container ">
+         <div class="d-flex gap-3">
+            <div class="left-testimonal">
+               <img src="assests/images/testimonial-1.png" alt="">
+               <h2 class="">Tales <br> Of <br> Odyssey</h2>
+            </div>
+            <div class="right-testimonal">
+               <div class="swiper mySwiper-portfolio">
+                  <div class="testimonal-reviws swiper-wrapper">
+                     <div class="review swiper-slide">
+                        <p>Your exceptional work in managing the social media presence of GSMC at GIFT IFSC deserves the
+                           highest
+                           praise! Your creativity, impactful thinking, and ability to craft engaging, impactful content
+                           have
+                           elevated the GSMC digital presence to new heights. The way you stay ahead of trends, foster
+                           meaningful
+                           connections, and create a strong, professional yet engaging narrative is truly commendable.
+                           Your
+                           dedication and innovation are not just enhancing visibility but also positioning GSMC as a
+                           prominent
+                           conclave of the GIFT IFSC. Keep up the incredible work your efforts are making a powerful
+                           difference!"
+                        </p>
+                        <div class="testimonal-client-name">
+                           <h6 class="mt-3 mb-1 fw-bold">Mayank Jain</h6>
+                           <small class="text-muted">CFO India INX, <br> GIFT City</small>
+                        </div>
+                     </div>
+                     <div class="review swiper-slide">
+                        <p>Working with you has been a fantastic experience! From crafting the investor presentation to
+                           fine-tuning the script, you have ensured that every detail aligned perfectly with our
+                           requirements.
+                           The final outcome was exactly what we envisioned, reflecting your keen understanding and
+                           commitment to
+                           delivering quality work. Your dedication and professionalism made the entire process seamless
+                           and
+                           efficient. Plus, your ability to meet tight deadlines without compromising on quality was
+                           truly
+                           commendable. Truly appreciate the effort.
+                        </p>
+                        <div class="testimonal-client-name">
+                           <h6 class="mt-3 mb-1 fw-semibold">Ajay Rawat</h6>
+                           <small class="text-muted">Director, <br> Dek and Mavericks Green Energy Ltd
+                           </small>
+                        </div>
+                     </div>
+                     <div class="review swiper-slide">
+                        <p>Aryan Shah from Odyssey Collective, is a young dynamic and dedicated entrepreneur, he has
+                           teamed with
+                           us on several occasions for our corporate clients, handling their digital and social media
+                           requirements and has proven his worth.
+                           His polite charming demeanor and ever-ready attitude makes him easy to work with.
+
+                           In spite of his young age and the fact that he has just ventured out his clarity of thought
+                           and
+                           maturity in managing clients and their requirements is noteworthy and shows a lot of promise.
+                           He,
+                           along with his team, have not only handled social media and digital marketing for our clients
+                           but also
+                           helped us redesign our cards and client presentation, making him and Odyssey a complete
+                           package for
+                           all our digital needs!
+                        </p>
+                        <div class="testimonal-client-name">
+                           <h6 class="mt-3 mb-1 fw-semibold">Alpa Shah</h6>
+                           <small class="text-muted">Co-Founder, <br> Maverick Events
+                           </small>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Testimonal 2 section End -->
+   <!-- Clients section start -->
+   <section class="clients-section py-5">
+      <div class="container">
+         <div class="marquee-wrapper position-relative my-4">
+            <div class="blur-left"></div>
+            <div class="blur-right"></div>
+            <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();"
+               onmouseout="this.start();">
+               <div class="marquee-track d-flex align-items-center">
+                  <img src="assests/images/Client Logos/1. close.png" alt="client1" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/DMGEL Logo.jpeg" alt="client2" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Gift City Logo.jpeg" alt="client3" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/GSMC Logo.jpeg" alt="client4" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/image.png" alt="client5" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/ochrerevival logo.png" alt="client6"
+                     class="client-img mx-4 ochrerevival-image">
+                  <img src="assests/images/Client Logos/Palladium Ahmedabad Logo.jpeg" alt="client6"
+                     class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Paws-Universe-logo-01.png" alt="client6"
+                     class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Tanishq Logo.jpeg" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/this and that.png" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/TPC Logo.jpeg" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/wagh-bakri-logo-th-2025.png" alt="client6"
+                     class="client-img mx-4">
+                  <img src="assests/images/Client Logos/1. close.png" alt="client1" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/DMGEL Logo.jpeg" alt="client2" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Gift City Logo.jpeg" alt="client3" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/GSMC Logo.jpeg" alt="client4" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/image.png" alt="client5" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/ochrerevival logo.png" alt="client6"
+                     class="client-img mx-4 ochrerevival-image">
+                  <img src="assests/images/Client Logos/Palladium Ahmedabad Logo.jpeg" alt="client6"
+                     class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Paws-Universe-logo-01.png" alt="client6"
+                     class="client-img mx-4">
+                  <img src="assests/images/Client Logos/Tanishq Logo.jpeg" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/this and that.png" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/TPC Logo.jpeg" alt="client6" class="client-img mx-4">
+                  <img src="assests/images/Client Logos/wagh-bakri-logo-th-2025.png" alt="client6"
+                     class="client-img mx-4">
+               </div>
+            </marquee>
+         </div>
+      </div>
+   </section>
+   <!-- Clients section End -->
+   <!-- Current cross wind section start -->
+   <section class="current-section pb-5">
+      <div class="container">
+         <h2>Current & Crosswinds</h2>
+         <div class="row mt-5">
+            <div class="col-md-4">
+               <h4 class="border-bottom pb-3 border-2 border-dark fw-semibold">What We Did & Didn’t Burn Down <svg
+                     class="custom-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                     <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                  </svg></h4>
+               <span class="pt-2">Brand building, but make it mildly chaotic.</span>
+            </div>
+            <div class="col-md-4">
+               <h4 class="border-bottom pb-3 border-2 border-dark fw-semibold fw-semibold">Shipwrecks That Turned to
+                  Ships <svg class="custom-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                     <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                  </svg></h4>
+               <span class="pt-2">Brand building, but make it mildly chaotic.</span>
+            </div>
+            <div class="col-md-4">
+               <h4 class="border-bottom pb-3 border-2 border-dark fw-semibold">Tales from the Trenches <svg
+                     class="custom-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                     <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
+                  </svg></h4>
+               <span class="pt-2">Brand building, but make it mildly chaotic.</span>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Current cross wind section End -->
+   <!-- Enquire start -->
+   <section class="enquire-section mt-5">
+      <div class="container">
+         <div class="row g-4 align-items-center">
+            <!-- Form Column -->
+            <div class="col-lg-9">
+               <form class="mt-5 w-75 form-section">
+                  <h2 class="text-light mb-5">Want to discuss what's next?</h2>
+                  <!-- Name/Company Row -->
+                  <div class="row mb-3">
+                     <div class="  col-md-6">
+                        <input type="text" class="user-details w-100 border-bottom border-light" placeholder="Name*"
+                           required>
+                     </div>
+                     <div class="col-md-6">
+                        <input type="text" class="user-details w-100 border-bottom border-light"
+                           placeholder="Name of the brand">
+                     </div>
+                  </div>
+                  <!-- Email/Phone Row -->
+                  <div class="row mb-4">
+                     <div class="col-md-6">
+                        <input type="email" class="user-details w-100 border-bottom border-light" placeholder="Email*"
+                           required>
+                     </div>
+                     <div class="col-md-6">
+                        <input type="tel" class="user-details w-100 border-bottom border-lightF"
+                           placeholder="Contact No.*">
+                     </div>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class=" mb-3 d-flex justify-content-between align-items-center">
+                     <div class="enquire-form-btn">
+                        <button type="submit"
+                           class="form-btn border border-1 border-light rounded-5  text-light px-3 py-1  fw-semibold">Add
+                           me to
+                           the chronicles</button>
+                     </div>
+                     <div>
+                        <button type="submit"
+                           class="form-btn border border-1 border-light rounded-5  text-light px-3 py-1  fw-semibold">Send</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <!-- Image Column (hidden on mobile) -->
+            <div class="col-lg-3 form-image-container form-image-col d-none d-lg-block">
+               <div class="form-image-placeholder h-100">
+                  <img src="assests/images/od-symbol-removebg-preview.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Enquire End -->
+   <!-- Footer section start-->
+   <!-- <footer class=" text-white pt-5 pb-3">
+         <div class="container">
+          
+           <div class="row mb-4">
+             <div class="col-lg-6 mb-4 mb-lg-0">
+               <img class="m-auto d-block" src="assests/images/Logo- 250x100px-01.png" alt="">
+               <h3>MADE FOR BIGGER THINGS</h3>
+               <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima voluptatem beatae
+                 mollitia exercitationem sequi ipsa fugit, perspiciatis molestias est odio voluptatum? Quam itaque nostrum,
+                 consectetur sint provident velit placeat!</p>
+             </div>
+             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+               <ul class="list-unstyled">
+                 <li class="mb-2">SERVICES</li>
+                 <li class="mb-2">ABOUT US</li>
+                 <li class="mb-2">CONTACT US</li>
+                 <li class="mb-2">BLOG</li>
+               </ul>
+             </div>
+             <div class="col-lg-3 col-md-6">
+               <p class="mb-2">Location</p>
+               <p class="small mb-3">409-410, 4th Floor, Gala Empire, Drive in RJ, opp. Doe-Guirahan Tower, Thaitej,
+                 Ahmedabad, Gujarat 380054</p>
+               <p class="mb-2">For Career Say Hello at</p>
+               <p class="small mb-1">odysseycollective.co.in</p>
+               <p class="small mb-0">+91 99749 65143</p>
+             </div>
+           </div>
+         
+           
+           <div class="footer-images footer-logos py-3">
+             <div>
+               <p>© 2025 odyssey</p>
+             </div>
+             <div><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin-in"></i> <i
+                 class="fa-brands fa-behance"></i></div>
+           </div>
+         </div>
+         </footer> -->
+   <!-- <footer class="bg-black text-white pt-5 pb-4 mt-5">
+         <div class="container text-center">
+           
+           <div class="border-bottom pb-3 footer-image"><img src="assests/images/Logo- 250x100px-01.png" alt=""></div>
+           <div class="row mt-4 align-items-center mt-3">
+             <div class="col-md-4 d-flex justify-content-center justify-content-md-start flex-wrap gap-3 mb-3 mb-md-0">
+               <a href="#" class="text-white text-decoration-none">About</a>
+               <a href="#" class="text-white text-decoration-none">Contact</a>
+               <a href="#" class="text-white text-decoration-none">Case Studies</a>
+               <a href="#" class="text-white text-decoration-none">Blog</a>
+               <a href="#" class="text-white text-decoration-none">Privacy</a>
+             </div>
+             <div class="col-md-4 d-flex justify-content-center gap-4 ">
+               <a href="#" class="text-white fs-4"><i class="fab fa-linkedin-in"></i></a>
+               <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+               <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+               <a href="#" class="text-white fs-4"><i class="fab fa-facebook-f"></i></a>
+             </div>
+             <div class="col-md-4 text-center text-md-end">
+               <div>Proudly created in India.</div>
+               <div>All Right Reserved, All Wrong Reversed.</div>
+             </div>
+           </div>
+         </div>
+         </footer> -->
+   <footer class="footer-section text-white pb-5">
+      <div class="container-fluid px-4">
+         <div class="row align-items-center">
+            <!-- Left Section: Odyssey Logo -->
+            <div class="footer-image col-lg-8 text-start mb-4 mb-lg-0">
+               <img src="assests/images/footer-big-logo.png" alt="">
+            </div>
+            <!-- Right Section: Links + Icons -->
+            <div class="footer-details col-lg-4 text-lg-end text-start pe-5">
+               <div>
+                  <ul class="list-unstyled mb-3 d-lg-inline-block">
+                     <li><a href="#" class="footer-link d-block">About Us</a></li>
+                     <li><a href="#" class="footer-link d-block">Work/Blogs</a></li>
+                     <li><a href="#" class="footer-link d-block">Contact Us</a></li>
+                  </ul>
+               </div>
+               <!-- Social Icons -->
+               <div class="social-icons mb-3">
+                  <a href="#" class="me-3 text-white fs-4"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+               </div>
+               <!-- Copyright -->
+               <div>
+                  <span class="m-0 small">Forged in India. Built for the world. All rights reserved.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Footer section End-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="gsap.js"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>

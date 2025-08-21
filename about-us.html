@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey</title>
+    <link rel="icon" href="assests/images/Favicon - 32x32px odyssey-03.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="font.css">
+    <!-- ------------------CSS Style----------------- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- ------------------Font Style----------------- -->
+    <link rel="stylesheet" href="https://use.typekit.net/ttl2tyn.css">
+    <!-- ------------------Font awesome Style----------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------Owl Carousel----------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assests/about-page-assests/assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assests/about-page-assests/assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Desktop Navbar -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <nav class="navbar desktop-navbar navbar-expand-lg  py-3" id="main-header">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assests/images/header-white-logo.png" alt="Logo"></a>
+            <div class="collapse navbar-collapse show">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Work / Blog</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Mobile Navbar -->
+    <div class="mobile-navbar">
+        <a class="navbar-brand text-white" href="index.html"><img src="assests/images/Logo- 250x100px-01.png" alt="Logo"
+                height="40"></a>
+        <button id="menuToggle" class="btn  fs-2">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+    <!-- Mobile Menu (Slide in from Right) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div>
+            <span class="close-btn" id="closeMenu"><i class="fa-solid fa-xmark"></i></span>
+            <ul class="mt-5">
+                <li><a href="about-us.html" class="text-white text-decoration-none fw-semibold">About Us</a></li>
+                <li><a href="#" class="text-white text-decoration-none fw-semibold">Work / Blog</a></li>
+                <li><a href="#" class="text-white text-decoration-none fw-semibold">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="text-white small">
+            <p class="mb-1">© 2023 Odyssey</p>
+            <div>
+                <i class="fa-brands fa-instagram me-2"></i>
+                <i class="fa-brands fa-facebook-f me-2"></i>
+                <i class="fa-brands fa-linkedin-in me-2"></i>
+                <i class="fa-brands fa-x-twitter me-2"></i>
+                <i class="bi bi-behance"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <img src="assests/images/compass.svg" alt="">
+            </div>
+            <div class="content about-hero-content">
+                <div class="inner">
+                    <h1>THE JOURNEY IS THE THING.</h1>
+                    <span>The Odyssey (adapted)</span>
+                    <p>Odyssey says: <br>
+                        There is no destination
+                    </p>
+                    <h4>ONLY MOVEMENT, MEANING, AND MYTH</h4>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- jounrey section start -->
+    <section class="jounrey-section">
+        <div class="container-fluid">
+            <h2>Dawn of Odyssey Collective</h2>
+            <div class="row g-4"> <!-- g-4 adds gap -->
+                <div class="col-lg-3 col-md-6">
+                    <p class="left-para-journey">
+                        Inspired by the great voyages of myth, Odyssey Collective was created to
+                        guide brands through their own transformation, not with noise, but with narrative.
+                        Not with chaos, but with clarity.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <p class="right-para-journey">
+                        Striking ideas like lightning bolts, we don’t aim to just create bright
+                        flashes but instill a sense of urgency and awe in the minds of people.
+                        We are the creative solutions to make an impact and make the eyeballs
+                        stop during lapses of unhinged doom scrolling or creating a campaign that
+                        resonates not just on a brand level, but a human level.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <p class="left-para-journey">
+                        Our path, like the ocean, is vast, and our course isn’t chartered to reach
+                        to a final destination, but acts merely as an excursion in this passionate
+                        voyage to creative freedom and unbound expression.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <p class="right-para-journey">
+                        Odyssey Collective is a living genesis, with no true end point, but just
+                        challenges that tickle our creative fancy and give us a competitive edge
+                        to thrive in this ever-changing digital landscape that stands at the precipice
+                        of boundless opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jounrey section End -->
+
+    <!-- path section start  -->
+    <section class="path-section">
+        <!-- <div class="path-titles">
+            <h2>NOT EVERY PATH IS MAPPED.</h2>
+            <h2>SOME ARE CARVED MID—JOURNEY.</h2>
+        </div> -->
+        <div class="container-fluid strategy-container">
+            <h3>THE <br>
+                TANGENTIAL <br>
+                STRATEGY</h3>
+            <p>The obvious is crowded. <br>
+                We aim for the angle no
+                one else thinks to draw.</p>
+        </div>
+        <section class="idea-section">
+            <div class="left-bottom">
+                <h1>From<br>Idea to<br>Impact</h1>
+            </div>
+            <!-- Left Side -->
+            <div class="impact-content">
+                <div class="left-side">
+
+                    <div class="left-top">
+                        Campaigns should not exist
+                        merely to push products. They
+                        should ripple outward as
+                        examples, as movements, as
+                        moments worth remembering.
+                        The internet is crowded with
+                        mundanity. Trends recycled,
+                        formats repeated, safe ideas
+                        dressed as strategy. And while
+                        that noise may gain momentum, it
+                        will rarely leave a mark.
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="right-side">
+                    <p>
+                        At Odyssey, we think
+                        tangentially. We choose
+                        the unexpected angle. The
+                        bolder voice. The slower
+                        build that erupts louder.
+                        It’s not about chasing
+                        algorithms, it’s about
+                        rewriting the pattern.
+                    </p>
+                    <h3>
+                        Tangential thinking
+                        doesn’t just sell. It
+                        shapes stories. It
+                        carves space.
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <!-- path section end  -->
+
+    <!-- flame section start -->
+    <section class="flame-section">
+        <div class="flame-container">
+            <div class="smoke"></div>
+
+            <!-- Top-left intro -->
+            <div class="intro content">
+                <p>
+                    The passion of the brand and the creativity
+                    we bring to the table are aligned through
+                    rigorous research, understanding, and,
+                    most importantly, incorporating the
+                    ethos, identity, and vision of the brand and
+                    carrying it forward. This is what leads to that
+                    first spark, the ignite of what we like to call
+                    The First Flame.
+                </p>
+            </div>
+
+            <!-- Centered main content -->
+            <div class="main-content content left">
+                <!-- <div class="rope"><span class="ring"></span></div> -->
+
+                <div class="title">
+                    <h2>The <br> First <br> Flame</h2>
+                    <!-- <h2>The journey begins with listening.</h2> -->
+                </div>
+
+                <div class="details">
+                    <p>
+                        A brand without a story is nothing but a
+                        silent product on the far end of a shelf.
+                        <strong>
+                            NARRATIVE IS THE ANCHOR
+                            THAT DRIVES POSITIONING,
+                            RESONANCE, AND RECALL.</strong>
+                    </p>
+                    <p>
+                        At its core, a brand reflects its founder.
+                        Their values, ethics, and mindset shape
+                        the culture and direction it takes. We
+                        love to get in on this action and listen to
+                        how ventures were built, how ideas were
+                        seeded, and how resilience shaped them
+                        into reality.
+                    </p>
+                    <p>
+                        The voice, tone, and hidden strengths
+                        are all uncovered through a deep
+                        understanding session with the client,
+                        much like buried relics waiting to be
+                        discovered.The more we listen, the more
+                        we observe, the more we learn.
+                    </p>
+                </div>
+
+            </div>
+            <div>
+                <h6> THE JOURNEY BEGINS WITH LISTENING.</h6>
+            </div>
+
+        </div>
+        <div class="flame-container forge-container">
+            <div class="smoke"></div>
+
+            <!-- Top-left intro -->
+            <div class="intro content ms-auto">
+                <p class="">
+                    Here, strategy and creativity synergise
+                    to craft content that doesn’t just
+                    communicate, but connects. We like to call
+                    this phase The Forge.
+                </p>
+            </div>
+
+            <!-- Centered main content -->
+            <div class="main-content content right">
+                <!-- <div class="rope"><span class="ring-two"></span></div> -->
+                <div class="title forge-title">
+                    <h2>The <br> Forge</h2>
+                    
+                    <br>
+                    <p>Research is what we feel, the
+                        throbbing heart of this phase.
+                        Understanding the brand, the
+                        industry, studying its peers,
+                        being in tune with the current
+                        ebbs and flows, and recognising
+                        the audience and establishing
+                        the touchpoints are some of
+                        the first steps we take before</p>
+                </div>
+
+                <div class="details forge-details">
+
+                    <p class="py-4">
+                        The more we read, the more we
+                        recognize the patterns.
+                        Our next step? <br>
+                        <strong>
+                            DISRUPTING THIS
+                            PATTERN.
+                        </strong>
+                    </p>
+
+                    <p>
+                        Ideas arrive in flashes - chaotic,
+                        electric, and full of potential. We
+                        collect, distill, and shape them into
+                        something stronger. These ideas are
+                        then molded with intent via a no-fluff
+                        brainstorming session. Through sharp
+                        thinking and strategic clarity, we filter
+                        the noise into a focused narrative. What
+                        begins as a storm of creativity is carved
+                        into a roadmap, condensed, foolproof,
+                        and built to move.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="flame-container forge-container">
+            <div class="smoke"></div>
+
+            <!-- Top-left intro -->
+            <div class="intro content ">
+            </div>
+
+            <!-- Centered main content -->
+            <div class="main-content content left last-left">
+                <!-- <div class="rope"><span class="ring"></span></div> -->
+                <div class="title forge-title">
+                    <h2>The <br>Echo</h2>
+                    <p> The story rises above the noise, bold and
+                        unwavering. What began as an idea now
+                        stands tall, refined, rooted, and ready
+                        to echo across markets, minds, and
+                        moments.</p>
+
+                    <p class="py-3">We execute with precision, not just to
+                        launch, but to leave an imprint. Every
+                        move is deliberate, every message clear.
+                        This is where insight meets impact, and
+                        strategy meets results.</p>
+                    <p>
+                        The foundation is no longer just built, it is
+                        lived, experienced, and remembered.
+                    </p>
+                </div>
+
+                <div class="details forge-details">
+                    <p class="pb-5">
+                        The final phase is where the spark becomes a blaze - a wildfire that doesn’t just spread, but
+                        sears itself
+                        into the lasting legacy of the identity we’ve shaped
+                    </p>
+                    <p class="">
+                        <span>
+                            THE BRAND DOESN’T
+                            WHISPER. IT ECHOES.
+                        </span>
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="flame-container forge-container">
+            <img src="assests/images/map-01.svg" alt="">
+        </div>
+    </section>
+    <!-- flame section End -->
+
+    <!-- Enquire start -->
+    <section class="enquire-section">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <!-- Form Column -->
+                <div class="col-lg-9">
+                    <form class="mt-5 w-75 form-section">
+                        <h2 class="text-light mb-5">Want to discuss what's next?</h2>
+                        <!-- Name/Company Row -->
+                        <div class="row mb-3">
+                            <div class="  col-md-6">
+                                <input type="text" class="user-details w-100 border-bottom border-light"
+                                    placeholder="Name*" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="user-details w-100 border-bottom border-light"
+                                    placeholder="Name of the brand">
+                            </div>
+                        </div>
+                        <!-- Email/Phone Row -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <input type="email" class="user-details w-100 border-bottom border-light"
+                                    placeholder="Email*" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="user-details w-100 border-bottom border-lightF"
+                                    placeholder="Contact No.*">
+                            </div>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class=" mb-3 d-flex justify-content-between align-items-center">
+                            <div class="enquire-form-btn">
+                                <button type="submit"
+                                    class="form-btn border border-1 border-light rounded-5  text-light px-3 py-1  fw-semibold">Add
+                                    me to
+                                    the chronicles</button>
+                            </div>
+                            <div>
+                                <button type="submit"
+                                    class="form-btn border border-1 border-light rounded-5  text-light px-3 py-1  fw-semibold">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Image Column (hidden on mobile) -->
+                <div class="col-lg-3 form-image-container form-image-col d-none d-lg-block">
+                    <div class="form-image-placeholder h-100">
+                        <img src="assests/images/od-symbol-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Enquire End -->
+
+    <!-- Footer section start-->
+    <footer class="footer-section text-white pb-5">
+        <div class="container-fluid px-4">
+            <div class="row align-items-center">
+                <!-- Left Section: Odyssey Logo -->
+                <div class="footer-image col-lg-8 text-start mb-4 mb-lg-0">
+                    <img src="assests/images/footer-big-logo.png" alt="">
+                </div>
+                <!-- Right Section: Links + Icons -->
+                <div class="footer-details col-lg-4 text-lg-end text-start pe-5">
+                    <div>
+                        <ul class="list-unstyled mb-3 d-lg-inline-block">
+                            <li><a href="#" class="footer-link d-block">About Us</a></li>
+                            <li><a href="#" class="footer-link d-block">Work/Blogs</a></li>
+                            <li><a href="#" class="footer-link d-block">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- Social Icons -->
+                    <div class="social-icons mb-3">
+                        <a href="#" class="me-3 text-white fs-4"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Copyright -->
+                    <div>
+                        <span class="m-0 small">Forged in India. Built for the world. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section End-->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="assests/about-page-assests/assets/js/jquery.min.js"></script>
+    <script src="assests/about-page-assests/assets/js/browser.min.js"></script>
+    <script src="assests/about-page-assests/assets/js/breakpoints.min.js"></script>
+    <script src="assests/about-page-assests/assets/js/util.js"></script>
+    <script src="assests/about-page-assests/assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+
+    </script>
+</body>
+
+</html>

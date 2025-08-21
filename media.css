@@ -1,0 +1,425 @@
+  @media (max-width:500px) {
+
+    h1 {
+      font-size: 50px !important;
+      padding-bottom: 20px;
+    }
+
+    .banner-title-2 {
+      flex-direction: column;
+      gap: 0;
+      width: 100% !important;
+    }
+
+    .sub-title-banner {
+      flex-direction: column;
+    }
+
+    .global-padding {
+      padding: 30px 0;
+    }
+
+    .portfolio-section {
+      margin: 0;
+    }
+
+    .services-section {
+      padding-top: 50px;
+    }
+
+    label.form-check-label {
+      font-size: 14px;
+    }
+
+    .row.portfolio-cards {
+      gap: 20px;
+    }
+
+    .portfolio-cards .card {
+      margin-top: 0 !important;
+    }
+
+    .client-img {
+      margin: auto !important;
+      background: red !important;
+    }
+
+    button.form-btn.btn.text-light {
+      width: 100% !important;
+    }
+
+
+    .about-section .row {
+      flex-direction: column !important;
+    }
+
+    .portfolio-container h2 {
+      font-size: 45px !important;
+    }
+
+    .footer-images {
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+
+    .about-section .about-title {
+      font-size: 30px !important;
+    }
+
+    .news-letter-section form {
+      width: 100%;
+      margin: auto;
+    }
+
+    .news-letter-section .row {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .blur-left,
+    .blur-right {
+      width: 0;
+    }
+
+    footer .row h3 {
+      font-size: 25px !important;
+      text-align: center;
+      padding: 10px 0 20px 0;
+    }
+
+    .service-card-desgin,
+    .service-card-desgin.swiper-slide.swiper-slide-next {
+      width: 100%;
+    }
+
+
+  }
+
+  @media (min-width: 768px) {
+    .border-md-end {
+      border-right: 1px solid #000000;
+
+    }
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-section .portfolio-container {
+      flex-direction: column;
+    }
+
+    footer .footer-image img {
+      width: 100%;
+    }
+
+
+
+    .swiper-wrapper .swiper-slide {
+      width: 100% !important;
+
+    }
+
+    .form-section {
+      width: 100% !important;
+    }
+
+    .current-section div {
+      gap: 30px;
+    }
+
+    .swiper-wrapper .card {
+      height: 500px;
+    }
+
+    .portfolio-hover-content {
+      opacity: 1;
+      padding: 20px;
+    }
+
+    .enquire-section .form-section {
+      width: 100% !important;
+    }
+
+    .right-testimonal,
+    .left-testimonal {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .Testimonial-2-section .d-flex {
+      flex-direction: column;
+    }
+
+    .testimonal-reviws {
+      padding: 10px;
+    }
+
+    .review p {
+      width: 96% !important;
+    }
+
+    .art-content h2 {
+      font-size: 74px !important;
+      line-height: 80px;
+    }
+
+    .service-card-design {
+      height: auto;
+    }
+
+    .who-we-are-text {
+      flex-direction: column;
+    }
+
+    .who-we-are h2 {
+      font-size: 54px !important;
+    }
+
+    .who-we-are-text-left-down,
+    .who-we-are-text-right-down {
+      transform: translate(0, 0) !important;
+    }
+
+    .who-we-are-text-left,
+    .who-we-are-text-right {
+      width: 100%;
+      text-align: center;
+    }
+
+    .who-we-are-text {
+      gap: 10px !important;
+    }
+
+    .who-we-are {
+      height: auto;
+    }
+
+    .inspired-text.w-50 {
+      width: 100% !important;
+    }
+
+    .service-card-design .service-btn {
+      margin: 30px 0;
+      position: static;
+    }
+
+    .hover-title {
+      opacity: 0;
+    }
+
+    .service-card-design:hover .hover-title {
+      opacity: 1;
+    }
+
+    .services-section .swiper-wrapper {
+      gap: 0;
+    }
+
+    .inspired-section .container {
+      margin: 0;
+      width: 100%;
+    }
+
+    .banner-title-2 {
+      flex-direction: column;
+      margin-top: 40px;
+      gap: 0;
+      padding: 0 20px;
+    }
+
+    .banner-title-2 h1 {
+      text-align: center;
+    }
+
+    .banner-title-2 .sub-title-banner {
+      margin-top: 0 !important;
+      text-align: center !important;
+    }
+
+    .banner-title-3 {
+      margin-top: 40px;
+      width: 100% !important;
+    }
+
+    .banner-title-3 div {
+      flex-direction: column;
+      gap: 0 !important;
+      justify-content: normal !important;
+    }
+
+    .banner-title-3 div p {
+      text-align: center !important;
+    }
+
+
+    .banner-slider div {
+      height: auto;
+      width: 100% !important;
+    }
+
+    .inspired-image {
+      height: 300px;
+      width: 300px;
+      top: 40%;
+      left: 65%;
+    }
+
+    .art-container {
+      background-size: 50%;
+    }
+
+    .art-content p {
+      width: 100%;
+      font-size: 16px!important;
+    }
+
+    .art-content h2 {
+      font-size: 43px !important;
+      line-height: 52px;
+    }
+
+    .service-card-design {
+      padding: 0 10px;
+    }
+
+    .current-section.pb-5 {
+      padding: 0 !important;
+    }
+
+
+
+    .inspired-image {
+      opacity: .5;
+    }
+
+    .inspired-section .inspired-text p {
+      font-size: 17px !important;
+      line-height: 26px;
+    }
+
+    .testimonal-section.py-5 {
+      padding-top: 0 !important;
+    }
+
+
+
+
+
+    /* About Section  */
+
+    .impact-content {
+      flex-direction: column;
+    }
+
+    .left-bottom {
+      position: static;
+    }
+
+    .flame-container .title h2 {
+      font-size: 100px !important;
+      line-height: 87px;
+      margin: 20px 0 !important;
+    }
+
+    footer .footer-details {
+      gap: 9px;
+      padding: 0 !important;
+    }
+    .flame-section p , .main-content .forge-title p{
+      font-size: 18px;
+    }
+    .jounrey-section h2{
+      padding-bottom: 0;
+      line-height: 54px;
+    }
+
+    .title h2{
+      margin: 2px 0;
+    }
+    .flame-container{
+      padding: 20px;
+    }
+    .flame-container .main-content{
+      gap: 0;
+    }
+    .main-content .forge-title , .main-content .forge-title p , .flame-container .title h2{
+      width: 100%;
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .form-image-col {
+      display: none;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .desktop-navbar {
+      display: none !important;
+    }
+
+    .mobile-navbar {
+      display: flex !important;
+      background: white;
+      color: white;
+      height: 70px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .hero-container {
+      margin-top: 100px !important;
+    }
+  }
+
+  @media (max-width:1024px) {
+    .hero-container {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .branding-title {
+      font-size: 2rem;
+    }
+
+    .branding-text {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .sticky-container {
+      display: none;
+    }
+
+    .hero-banner-mobile {
+      display: block;
+    }
+  }
+
+  @media (max-width: 1550px) {
+    .who-we-are-text {
+      gap: 68px;
+    }
+  }
+  /* Hide dots by default */
+.swiper-pagination {
+  display: none;
+}
+
+/* Show dots only on mobile */
+@media (max-width: 768px) {
+  .swiper-pagination {
+    display: block;
+    margin-top: 15px; /* optional spacing */
+    text-align: center;
+  }
+}

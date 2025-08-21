@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'theseasonsregular';
+    src: url('fonts/theseasonsregular.eot');
+    src: url('fonts/theseasonsregular.eot') format('embedded-opentype'),
+         url('fonts/theseasonsregular.woff2') format('woff2'),
+         url('fonts/theseasonsregular.woff') format('woff'),
+         url('fonts/theseasonsregular.ttf') format('truetype'),
+         url('fonts/theseasonsregular.svg#theseasonsregular') format('svg');
+}
