@@ -669,6 +669,7 @@ marquee span {
 
 .portfolio-wrap {
   height: auto !important;
+  gap: 20px;
 }
 
 .swiper-wrapper .card img {
@@ -855,6 +856,10 @@ textarea {
   color: #0e3b5b;
   font-weight: 500 !important;
   font-size: 40px !important;
+}
+
+.art-content-mobile-image {
+  display: none;
 }
 
 .news-letter-section form {
@@ -1462,7 +1467,7 @@ footer .footer-details {
 .art-content p,
 .art-content h2 {
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .art-content h4 {
@@ -1475,39 +1480,38 @@ footer .footer-details {
   margin-bottom: 0;
 }
 
-.art-content button,
-.inspired-text button {
+.art-content .btn-link,
+.inspired-text .btn-link {
+  display: inline-flex;            /* keeps text + svg aligned */
+  align-items: center;
+  gap: 5px;                        /* space between text & icon */
   background: #f5f7f8;
   color: #0b3152;
   border-radius: 100px;
   padding: 7px 15px;
   transition: .25s ease-in-out;
-  border: 2px solid transparent;
+  border: 2px solid #0b3152;
   margin-top: 20px;
-  border: 2px solid #0b3152;
+  text-decoration: none;           /* remove underline */
+  font-family: inherit;            /* keep consistent font */
 }
 
-.art-content button:hover {
+.art-content .btn-link:hover,
+.inspired-text .btn-link:hover {
   background: #0b3152;
   color: #FFFFFF;
   border: 2px solid #0b3152;
 }
 
-.inspired-text button:hover {
-  background: #0b3152;
-  color: #FFFFFF;
-  border: 2px solid #0b3152;
-}
-
-.art-content button:hover path,
-.inspired-text button:hover path {
-  fill: #FFFFFF;
-}
-
-.art-content button path,
-.inspired-text button path {
+.art-content .btn-link path,
+.inspired-text .btn-link path {
   fill: #0b3152;
   transition: .25s ease-in-out;
+}
+
+.art-content .btn-link:hover path,
+.inspired-text .btn-link:hover path {
+  fill: #FFFFFF;
 }
 
 .art-content h2 {
