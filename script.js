@@ -232,3 +232,5 @@ window.addEventListener('pointerup', (e) => {
     ease: "power1.out"
   });
 });
+
+

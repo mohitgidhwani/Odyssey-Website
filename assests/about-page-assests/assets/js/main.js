@@ -548,3 +548,16 @@ closeMenu.addEventListener("click", () => {
 });
 
 // mobile menu 
+
+
+// Flame mobile slider
+  var swiper = new Swiper(".flame-section-mySwiper", {
+            slidesPerView: 1,
+            loop: false,
+            autoplay: true,
+            delay: 3000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });

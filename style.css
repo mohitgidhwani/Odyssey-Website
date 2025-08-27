@@ -279,9 +279,7 @@ nav ul li .nav-link:hover {
 } */
 
 @media (max-width: 768px) {
-  .inspired-section .move-text {
-      margin: 10px 0 !important;
-  }
+  
   .banner-title h1 {
     font-size: 2rem;
   }
@@ -971,6 +969,10 @@ input.form-control:focus {
 
 /* testimonal start */
 
+.Testimonial-2-section{
+  overflow: hidden;
+}
+
 .testimonal-section h2 {
   font-size: 45px !important;
   font-weight: 700 !important;
@@ -1074,13 +1076,6 @@ input.form-control:focus {
 .testimonal-client-name {
   margin-top: 130px;
 }
-
-/* .right-testimonal .review{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-} */
 
 .right-testimonal {
   background: url(assests/images/testimonial-2.png);
@@ -1210,7 +1205,7 @@ footer div a {
   }
 
   .footer-link {
-    text-align: center;
+    /* text-align: center; */
     display: block;
   }
 }
@@ -1862,9 +1857,11 @@ footer .footer-details {
   align-items: normal;
 }
 
-.forge-container img{
-  border-radius: 30px;
+.map-mobile-view{
+  display: none;
 }
+
+
 
 /* Rope */
 .rope {

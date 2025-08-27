@@ -39,9 +39,12 @@
       margin-top: 0 !important;
     }
 
+    .portfolio-card{
+      padding: 0;
+    }
     .client-img {
       margin: auto !important;
-      background: red !important;
+      
     }
 
     button.form-btn.btn.text-light {
@@ -142,7 +145,7 @@
     .right-testimonal,
     .left-testimonal {
       width: 100%;
-      padding: 10px;
+      /* padding: 10px; */
     }
 
     .Testimonial-2-section .d-flex {
@@ -323,12 +326,20 @@
     }
 
     .Testimonial-2-section .container , .right-testimonal, .left-testimonal {
-      padding: 0;
+      /* padding: 0; */
     }
 
-    .left-testimonal h2{
+    /* .left-testimonal h2{
       top: 0px;
     left: 0px;
+    } */
+
+    .map-desktop-view{
+      display: none;
+    }
+
+    .map-mobile-view{
+      display: block;
     }
 
 
@@ -421,11 +432,11 @@
     /* -----------footer section--------------- */
     .footer-link,
     footer .social-icons {
-      text-align: left;
+      text-align: right;
     }
 
     footer .social-icons {
-      justify-content: normal;
+      justify-content: end;
       padding-left: 8px;
     }
 
