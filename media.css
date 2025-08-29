@@ -23,9 +23,9 @@
       margin: 0;
     }
 
-    .services-section {
+    /* .services-section {
       padding-top: 50px;
-    }
+    } */
 
     label.form-check-label {
       font-size: 14px;
@@ -284,6 +284,14 @@
       font-size: 43px !important;
       line-height: 52px;
     }
+    .about-hero-content .inner{
+	text-align: right;
+}
+
+.left-side, .right-side , .jounrey-section{
+  padding: 20px;
+}
+
 
     .service-card-design {
       padding: 0 10px;
@@ -335,11 +343,17 @@
     } */
 
     .map-desktop-view{
-      display: none;
+      display: none !important;
     }
 
     .map-mobile-view{
       display: block;
+      padding: 0 !important;
+      height: 100%;
+    }
+
+    .art-content .btn-link, .inspired-text .btn-link{
+        padding: 1px 12px;
     }
 
 

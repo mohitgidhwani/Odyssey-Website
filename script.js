@@ -16,7 +16,7 @@
   var swiper = new Swiper(".portfolio-wrapper", {
   slidesPerView: 3, // default desktop
   spaceBetween: 30,
-  freeMode: true, // ❌ disable freeMode so it snaps properly,
+  freeMode: false, // ❌ disable freeMode so it snaps properly,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -24,10 +24,10 @@
   breakpoints: {
     0: {
       slidesPerView: 1, // full width on mobile
-      spaceBetween: 0,
+      spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2, // optional: 2 slides on tablet
+      slidesPerView: 1, // optional: 2 slides on tablet
       spaceBetween: 20,
     },
     1024: {

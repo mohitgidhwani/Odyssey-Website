@@ -667,7 +667,7 @@ marquee span {
 
 .portfolio-wrap {
   height: auto !important;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .swiper-wrapper .card img {
@@ -747,7 +747,7 @@ marquee span {
   background: #898199;
   overflow: hidden;
   position: relative;
-  padding: 40px 0;
+  padding: 16px 0;
 }
 
 .enquire-section h4 {
@@ -949,7 +949,7 @@ input.form-control:focus {
 
 .client-img {
   height: 70px;
-  width: auto;
+  width: 141px;
   object-fit: contain;
   filter: grayscale(0%);
   transition: transform 0.3s ease;
