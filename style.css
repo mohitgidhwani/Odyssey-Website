@@ -1721,6 +1721,11 @@ footer .footer-details {
   overflow: hidden;
 }
 
+
+.mobile-flame-section{
+  display: none !important;
+}
+
 .flame-container {
   position: relative;
   padding: 40px;
@@ -1858,7 +1863,7 @@ footer .footer-details {
 }
 
 .map-mobile-view{
-  display: none;
+  display: none !important;
 }
 
 

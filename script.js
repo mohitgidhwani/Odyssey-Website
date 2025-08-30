@@ -9,9 +9,12 @@
 
   
  var swiper = new Swiper(".mySwiper-banner", {
-  autoplay : true,
-  delay : 2000
- });
+      spaceBetween: 0,
+      pagination: {
+        el: ".hero-section-swiper-pagination",
+        clickable: true,
+      },
+    });
 
   var swiper = new Swiper(".portfolio-wrapper", {
   slidesPerView: 3, // default desktop

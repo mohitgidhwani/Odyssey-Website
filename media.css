@@ -39,12 +39,13 @@
       margin-top: 0 !important;
     }
 
-    .portfolio-card{
+    .portfolio-card {
       padding: 0;
     }
+
     .client-img {
       margin: auto !important;
-      
+
     }
 
     button.form-btn.btn.text-light {
@@ -114,7 +115,15 @@
       width: 100%;
     }
 
+     .hero-banner-mobile {
+      display: block;
+    }
 
+     .hero-banner-mobile .mySwiper-banner .hero-section-swiper-pagination{
+      position: absolute;
+      z-index: 9;
+      text-align: center;
+     }
 
     .swiper-wrapper .swiper-slide {
       width: 100% !important;
@@ -123,6 +132,11 @@
 
     .form-section {
       width: 100% !important;
+
+    }
+
+    .enquire-section .form-section {
+      margin-top: 0 !important;
     }
 
     .current-section div {
@@ -168,8 +182,9 @@
     .service-card-design {
       height: 100vh;
     }
-    .hover-title p{
-          font-size: 16px !important;
+
+    .hover-title p {
+      font-size: 16px !important;
     }
 
     .who-we-are-text {
@@ -284,13 +299,16 @@
       font-size: 43px !important;
       line-height: 52px;
     }
-    .about-hero-content .inner{
-	text-align: right;
-}
 
-.left-side, .right-side , .jounrey-section{
-  padding: 20px;
-}
+    .about-hero-content .inner {
+      text-align: right;
+    }
+
+    .left-side,
+    .right-side,
+    .jounrey-section {
+      padding: 20px;
+    }
 
 
     .service-card-design {
@@ -319,21 +337,26 @@
     .inspired-section .inspired-text button {
       padding: 5px 8px;
     }
-    .who-we-are h2, .who-we-are p{
+
+    .who-we-are h2,
+    .who-we-are p {
       margin-bottom: 0 !important;
     }
 
-    .art-content-mobile-image{
+    .art-content-mobile-image {
       display: block;
     }
-    .art-content-mobile-image img{
+
+    .art-content-mobile-image img {
       width: 100%;
       /* height: 400px; */
       object-fit: contain;
       margin-bottom: 20px;
     }
 
-    .Testimonial-2-section .container , .right-testimonal, .left-testimonal {
+    .Testimonial-2-section .container,
+    .right-testimonal,
+    .left-testimonal {
       /* padding: 0; */
     }
 
@@ -342,18 +365,19 @@
     left: 0px;
     } */
 
-    .map-desktop-view{
+    .map-desktop-view {
       display: none !important;
     }
 
-    .map-mobile-view{
+    .map-mobile-view {
       display: block;
       padding: 0 !important;
       height: 100%;
     }
 
-    .art-content .btn-link, .inspired-text .btn-link{
-        padding: 1px 12px;
+    .art-content .btn-link,
+    .inspired-text .btn-link {
+      padding: 1px 12px;
     }
 
 
@@ -380,6 +404,28 @@
       font-size: 100px !important;
       line-height: 87px;
       margin: 20px 0 !important;
+    }
+
+    .desktop-flame-section {
+      display: none !important;
+    }
+
+    .mobile-flame-section {
+      display: block !important;
+    }
+
+    .mobile-flame-section .title h2 {
+      font-size: 58px !important;
+      line-height: 56px;
+    }
+
+    .flame-swiper-pagination {
+      text-align: center;
+
+    }
+
+    span.swiper-pagination-bullet {
+      background-color: white;
     }
 
     footer .footer-details {
@@ -441,6 +487,10 @@
     .flame-container .intro {
       margin: 0 !important;
     }
+
+    .jounrey-section .container-fluid{
+      padding: 0 !important;
+    } 
 
 
     /* -----------footer section--------------- */
@@ -511,9 +561,7 @@
       display: none;
     }
 
-    .hero-banner-mobile {
-      display: block;
-    }
+    
   }
 
   @media (max-width: 1550px) {
