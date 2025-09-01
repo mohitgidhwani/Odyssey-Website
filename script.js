@@ -7,6 +7,9 @@
     }
   });
 
+
+
+
   
  var swiper = new Swiper(".mySwiper-banner", {
       spaceBetween: 0,

@@ -297,13 +297,13 @@ nav ul li .nav-link:hover {
   .inspired-section{
     padding: 0;
   }
-  .inspired-image{
+  /* .inspired-image{
     height: 240px;
     width: 240px;
     top: 60%;
     right: -150px;
     left: unset;
-  }
+  } */
 }
 
 .hero-section .banner {
@@ -431,6 +431,9 @@ nav ul li .nav-link:hover {
   display: flex;
   animation: scroll-left 7s linear infinite;
 }
+
+
+
 
 @keyframes scroll-left {
   0% {
@@ -645,7 +648,7 @@ marquee span {
 
 .portfolio-section .portfolio-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 50px;
 }
 
@@ -936,6 +939,8 @@ input.form-control:focus {
   width: 240px !important;
 }
 
+
+
 .blur-left {
   left: 0;
   background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
@@ -949,12 +954,14 @@ input.form-control:focus {
 
 .client-img {
   height: 70px;
-  width: 141px;
+  width: 200px;
   object-fit: contain;
   filter: grayscale(0%);
   transition: transform 0.3s ease;
 }
-
+img.client-img.deck-marvens.mx-4{
+      transform: scale(1.5)!important;
+}
 .client-img:hover {
   transform: scale(1.1);
   filter: grayscale(90%);
@@ -1260,8 +1267,8 @@ footer .footer-details {
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
-  height: 100vh;
+  text-align: center; 
+  height: calc(100vh - 100px);
   /* width: 28%; */
   justify-content: center;
   background: white;
@@ -1462,7 +1469,6 @@ footer .footer-details {
 .art-content p,
 .art-content h2 {
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  text-transform: capitalize;
 }
 
 .art-content h4 {
@@ -1935,3 +1941,7 @@ footer .footer-details {
 }
 
 /*-------------- About Us Flame section End-----------  */
+
+
+
+

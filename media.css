@@ -107,6 +107,14 @@
   }
 
   @media (max-width: 768px) {
+    section.clients-section.py-5 {
+      padding: 10px 0 !important;
+    }
+
+    marquee.move-text {
+      margin: 20px 0 0px 0 !important;
+    }
+
     .portfolio-section .portfolio-container {
       flex-direction: column;
     }
@@ -115,15 +123,15 @@
       width: 100%;
     }
 
-     .hero-banner-mobile {
+    .hero-banner-mobile {
       display: block;
     }
 
-     .hero-banner-mobile .mySwiper-banner .hero-section-swiper-pagination{
+    .hero-banner-mobile .mySwiper-banner .hero-section-swiper-pagination {
       position: absolute;
       z-index: 9;
       text-align: center;
-     }
+    }
 
     .swiper-wrapper .swiper-slide {
       width: 100% !important;
@@ -180,7 +188,38 @@
     }
 
     .service-card-design {
-      height: 100vh;
+      height: calc(100vh - 70px);
+    }
+
+     .service-card-design .card-title{
+          font-size: 80px;
+    }
+
+    .service-card-design .hover-title {
+      transform: translate(0px, 0px);
+      /* transition: .45s ease-in-out; */
+      opacity: 1;
+    }
+
+    .service-card-design .card-title {
+      color: white !important;
+    }
+
+    .service-card-blue {
+      color: white;
+      background: url(assests/images/card-image/Ship\ -\ purple-02\ 1.png), rgba(11, 49, 82, .8);
+
+    }
+
+    .service-card-purple {
+      color: white;
+      background: url(assests/images/card-image/card-img-2.png), rgba(137, 128, 153, .8);
+
+    }
+
+    .service-card-gold {
+      color: white;
+      background: url(assests/images/card-image/card-image-3.png), rgba(114, 111, 96, .8);
     }
 
     .hover-title p {
@@ -220,8 +259,10 @@
     }
 
     .service-card-design .service-btn {
-      margin: 30px 0;
+      /* margin: 30px 0; */
       position: static;
+      margin-top: -133px;
+        margin-bottom: 92px;
     }
 
     .hover-title {
@@ -281,8 +322,9 @@
     .inspired-image {
       height: 200px;
       width: 200px;
-      top: 76%;
-      left: 81%;
+      /* top: 76%;
+      left: 81%; */
+      transform: translate(-27.9039px, 20.665px) rotate(5.00022deg) scale(1.00001, 1.00001) !important;
     }
 
     .art-container {
@@ -354,11 +396,11 @@
       margin-bottom: 20px;
     }
 
-    .Testimonial-2-section .container,
+    /* .Testimonial-2-section .container,
     .right-testimonal,
     .left-testimonal {
-      /* padding: 0; */
-    }
+      padding: 0;
+    } */
 
     /* .left-testimonal h2{
       top: 0px;
@@ -370,7 +412,7 @@
     }
 
     .map-mobile-view {
-      display: block;
+      display: block !important;
       padding: 0 !important;
       height: 100%;
     }
@@ -385,6 +427,20 @@
 
 
     /* About Section  */
+
+    .strategy-container {
+      background: url(assests/images/tangential\ strategy\ background\ -\ mobile\ view-01.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 100px 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-attachment: fixed;
+    }
 
     .about-hero-content h1 {
       text-align: left;
@@ -403,7 +459,7 @@
     .flame-container .title h2 {
       font-size: 100px !important;
       line-height: 87px;
-      margin: 20px 0 !important;
+      margin: 5px 0 !important;
     }
 
     .desktop-flame-section {
@@ -415,8 +471,17 @@
     }
 
     .mobile-flame-section .title h2 {
-      font-size: 58px !important;
-      line-height: 56px;
+      font-size: 49px !important;
+      line-height: 55px;
+    }
+    .forge-details p{
+       padding-bottom: 20px !important;
+    }
+    .forge-details span{
+          letter-spacing: 2px;
+    }
+    .flame-container .forge-intro{
+      width: 64%;
     }
 
     .flame-swiper-pagination {
@@ -434,8 +499,21 @@
     }
 
     .flame-section p,
-    .main-content .forge-title p {
+    .main-content .forge-title p 
+    , .flame-container .intro p
+    {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .flame-container .forge-details{
+      margin-top: 0;
+    }
+    .details .forge-details p.pb-5{
+        padding-bottom: 0 !important;
+    }
+    .flame-container h6{
       font-size: 18px;
+      padding-top: 20px;
     }
 
     .jounrey-section h2 {
@@ -488,9 +566,10 @@
       margin: 0 !important;
     }
 
-    .jounrey-section .container-fluid{
+    .jounrey-section .container-fluid {
       padding: 0 !important;
-    } 
+    }
+    
 
 
     /* -----------footer section--------------- */
@@ -561,7 +640,7 @@
       display: none;
     }
 
-    
+
   }
 
   @media (max-width: 1550px) {
