@@ -416,6 +416,12 @@
       padding: 0 !important;
       height: 100%;
     }
+     .map-mobile-view img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: flex;
+     }
 
     .art-content .btn-link,
     .inspired-text .btn-link {
@@ -440,6 +446,7 @@
       align-items: center;
       justify-content: center;
       background-attachment: fixed;
+      background-position: center;
     }
 
     .about-hero-content h1 {
